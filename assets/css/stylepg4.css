@@ -1,0 +1,158 @@
+@import url("https://use.typekit.net/jfm1xex.css");
+
+@font-face {
+  font-family: garmentdistrict;
+  src: url("../fonts/garmentdistrict.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arboria', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../img/whitebg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  background-color: #F5F1EE;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 10 auto;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255,255,255,0);
+  z-index: 10;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 45px;
+  font-family: "garmentdistrict", sans-serif;
+  color: #6A1D0F;
+}
+
+.logo:hover {
+  text-shadow: 4px 4px #CE9489;
+  transition: 0.2s ease-out;
+}
+
+nav {
+  float: right;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Arboria", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #6A1D0F;
+}
+
+nav a:hover {
+  opacity: 0.5;
+  transition: 0.2s ease-out;
+}
+
+.contact-us{
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  margin: 80px auto;
+  border-radius: 9px;
+  position: relative;
+}
+
+.title h1{
+  color: #6A1D0F;
+  font-family: "Arboria", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #CE9489
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 12px;
+  font-family: "Arboria", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+  font-family: "Arboria", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.btn{
+  background: #EF6351;
+  text-align: center;
+  color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Arboria", sans-serif;
+  font-weight: 300;
+}
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.btn:hover, .btn:active {
+  background-color: #FDE1D7;
+  color: #000;
+  transition: all 0.3s ease-in, color 0.3s ease-in;
+}
+
+.form-items{
+  position: relative;
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #9a99aa;
+}
